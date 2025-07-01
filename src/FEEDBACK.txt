@@ -1,0 +1,63 @@
+14-February-2025 01:35:35---Student: ..
+14-February-2025 01:35:35----Code compiles:PASS
+Launch Suite:
+  14-February-2025 01:35:36----exit causes process to terminate with correct return code:NOT OK
+  14-February-2025 01:35:38----Shell message is displayed, uses exit to test:OK
+Result:FAIL
+Unknown Command Message:
+  14-February-2025 01:35:40----Unknown command should display corresponding message:OK
+  14-February-2025 01:35:42----Multiple unknown commands:OK
+Result:PASS
+Long Command Message:
+  14-February-2025 01:35:44----A not-too-long and legal command input is valid:NOT OK
+  14-February-2025 01:35:46----Long command input is invalid:OK
+  14-February-2025 01:35:48----Long command message takes priority:OK
+Result:FAIL
+Echo Simple Messages:
+  14-February-2025 01:35:50----Echo of one character displays correctly:OK
+  14-February-2025 01:35:52----Echo of simple message displays correctly:OK
+  14-February-2025 01:35:54----Echo of simple message displays correctly v3:OK
+  14-February-2025 01:35:56----Echo of simple message displays correctly v3:OK
+  14-February-2025 01:35:58----Echo of simple message does not show errors:OK
+Result:PASS
+Echo Special Characters:
+  14-February-2025 01:36:00----Echo of mixed message displays correctly:OK
+  14-February-2025 01:36:02----echo with quotes has no special meaning:OK
+  14-February-2025 01:36:04----echo ignores extra spaces:OK
+Result:PASS
+Multiple Commands:
+  14-February-2025 01:36:06----Two echo commands display correctly:OK
+  14-February-2025 01:36:08----Two echo commands do not show error:OK
+  14-February-2025 01:36:10----Echo commands work while other commands error:OK
+Result:PASS
+Simple variables accesses:
+  14-February-2025 01:36:12----Declare and access a single variable:NOT OK
+  14-February-2025 01:36:12----Declare and access a single variable:NOT OK
+  14-February-2025 01:36:13----Tests for correct evaluation of variable expansions containing only intitialized variables:NOT OK
+  14-February-2025 01:36:13----Tests for correct evaluation of variable expansions containing variables plus plaintext and uninitialized variables:NOT OK
+Result:FAIL
+Variable integration with other commands:
+  14-February-2025 01:36:14----Declare a single variable:NOT OK
+  14-February-2025 01:36:14----Declare and access two variables:NOT OK
+Result:FAIL
+Custom variable accesses:
+  14-February-2025 01:36:15----Access variables in separate lines:NOT OK
+  14-February-2025 01:36:15----Access variables in separate lines v2:NOT OK
+Result:FAIL
+Echo without variables displays plain text:
+  14-February-2025 01:36:16----Variables access with $ is bound to name:NOT OK
+  14-February-2025 01:36:16----Non-existing variable displays as an empty string:NOT OK
+Result:FAIL
+Variable values can be redefined:
+  14-February-2025 01:36:17----Variable value is redefined appropriately:NOT OK
+  14-February-2025 01:36:17----Variable value is redefined appropriately v2:NOT OK
+Result:FAIL
+Variable formatting edge cases:
+  14-February-2025 01:36:18----Variables accesses separate by the first equal:NOT OK
+  14-February-2025 01:36:18----Variable declaration with spaces is not supported:NOT OK
+Result:FAIL
+Advanced tests:
+  14-February-2025 01:36:19----Declare and access 100 variables:NOT OK
+Result:FAIL
+14-February-2025 01:36:23--- Test Suites Passed 5.0/14.0
+14-February-2025 01:36:23 FINISHED

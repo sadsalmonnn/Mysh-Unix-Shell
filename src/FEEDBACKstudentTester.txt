@@ -1,0 +1,34 @@
+25-January-2025 23:02:53---Student: you
+25-January-2025 23:02:53----Code compiles:PASS
+Launch Suite:
+  25-January-2025 23:02:53----exit causes process to terminate with correct return code:OK
+  25-January-2025 23:02:55----Shell message is displayed, uses exit to test:OK
+Result:PASS
+Unknown Command Message:
+  25-January-2025 23:02:57----Unknown command should display corresponding message:OK
+  25-January-2025 23:02:59----Multiple unknown commands:OK
+Result:PASS
+Long Command Message:
+  25-January-2025 23:03:01----A not-too-long and legal command input is valid:OK
+  25-January-2025 23:03:03----Long command input is invalid:OK
+  25-January-2025 23:03:05----Long command message takes priority:OK
+Result:PASS
+Echo Simple Messages:
+  25-January-2025 23:03:07----Echo of one character displays correctly:OK
+  25-January-2025 23:03:09----Echo of simple message displays correctly:OK
+  25-January-2025 23:03:11----Echo of simple message displays correctly v3:OK
+  25-January-2025 23:03:13----Echo of simple message displays correctly v3:OK
+  25-January-2025 23:03:15----Echo of simple message does not show errors:OK
+Result:PASS
+Echo Special Characters:
+  25-January-2025 23:03:17----Echo of mixed message displays correctly:OK
+  25-January-2025 23:03:19----echo with quotes has no special meaning:OK
+  25-January-2025 23:03:21----echo ignores extra spaces:OK
+Result:PASS
+Multiple Commands:
+  25-January-2025 23:03:23----Two echo commands display correctly:OK
+  25-January-2025 23:03:25----Two echo commands do not show error:OK
+  25-January-2025 23:03:27----Echo commands work while other commands error:OK
+Result:PASS
+25-January-2025 23:03:29--- Suites Passed 7.0/7.0
+25-January-2025 23:03:29 FINISHED

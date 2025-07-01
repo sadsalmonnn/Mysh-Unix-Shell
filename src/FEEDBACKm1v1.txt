@@ -1,0 +1,58 @@
+25-January-2025 00:32:50---Student: m1v1
+25-January-2025 00:32:50----Code compiles:PASS
+Launch Suite:
+  25-January-2025 00:32:50----exit causes process to terminate with correct return code:OK
+  25-January-2025 00:32:52----Shell message is displayed, uses exit to test:NOT OK
+Result:FAIL
+Unknown Command Message:
+  25-January-2025 00:32:54----Unknown command should display corresponding message:NOT OK
+  25-January-2025 00:32:56----Multiple unknown commands:NOT OK
+Result:FAIL
+Long Command Message:
+  25-January-2025 00:32:58----A not-too-long and legal command input is valid:OK
+  25-January-2025 00:33:00----Long command input is invalid:OK
+  25-January-2025 00:33:02----Long command message takes priority:OK
+Result:PASS
+Echo Simple Messages:
+  25-January-2025 00:33:04----Echo of one character displays correctly:NOT OK
+  25-January-2025 00:33:06----Echo of simple message displays correctly:NOT OK
+  25-January-2025 00:33:08----Echo of simple message displays correctly v3:NOT OK
+  25-January-2025 00:33:10----Echo of simple message displays correctly v3:NOT OK
+  25-January-2025 00:33:12----Echo of simple message does not show errors:NOT OK
+Result:FAIL
+Echo Special Characters:
+  25-January-2025 00:33:14----Echo of mixed message displays correctly:NOT OK
+  25-January-2025 00:33:16----echo with quotes has no special meaning:NOT OK
+  25-January-2025 00:33:18----echo ignores extra spaces:NOT OK
+Result:FAIL
+Multiple Commands:
+  25-January-2025 00:33:20----Two echo commands display correctly:NOT OK
+  25-January-2025 00:33:22----Two echo commands do not show error:NOT OK
+  25-January-2025 00:33:24----Echo commands work while other commands error:NOT OK
+Result:FAIL
+Hidden - echo with hidden message and near limits:
+  25-January-2025 00:33:26----echo with a random message displays correctly:NOT OK
+NOT OK
+NOT OK
+NOT OK
+NOT OK
+NOT OK
+NOT OK
+NOT OK
+NOT OK
+NOT OK
+OK
+  25-January-2025 00:33:28----Echo command with 126 characters is displayed correctly:NOT OK
+  25-January-2025 00:33:30----Echo command with 129 characters triggers an error message:OK
+Result:FAIL
+Hidden - echo does not display an extra space:
+  25-January-2025 00:33:32----Echo command does not print trailing spaces:OK
+  25-January-2025 00:33:34----Echo command does not print leading spaces:OK
+  25-January-2025 00:33:36----Echo command does not print extra spaces in middle:NOT OK
+Result:FAIL
+Hidden - echonot:
+  25-January-2025 00:33:38----Invalid command given that includes a valid command as a prefix:NOT OK
+  25-January-2025 00:33:40----Invalid command given that includes a valid command as a prefix:NOT OK
+Result:FAIL
+25-January-2025 00:33:42--- Suites Passed 2.0/10.0
+25-January-2025 00:33:42 FINISHED
