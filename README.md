@@ -36,23 +36,7 @@ Linked-list based environment variable storage and lookup with commands to manip
 
 ### 5. Networking Support
 
-- **start-server port-number**  
-  Launches a non-blocking background chat server on the specified port, accepting multiple simultaneous client connections.  
-  *Errors:* Prints `ERROR: No port provided` if port is missing.
-
-- **close-server**  
-  Terminates the running chat server gracefully.
-
-- **send port-number hostname message**  
-  Sends a message to a given hostname and port. Messages appear on the shell's console and all connected clients.
-
-- **start-client port-number hostname**  
-  Starts a client that connects once to the server at the specified port and hostname.  
-  The client can send multiple messages until terminated with Ctrl+D or Ctrl+C.  
-  Upon connecting, each client receives a unique ID in the format `client#:`.  
-  Messages sent by clients are displayed on the server shell and all connected clients.  
-  Special message `\connected` reports the current number of connected clients.  
-  *Errors:* Prints `ERROR: No port provided` or `ERROR: No hostname provided` if arguments are missing.
+Starts a client that connects once to the server at the specified port and hostname, where messages can be sent and displayed
 
 ---
 
