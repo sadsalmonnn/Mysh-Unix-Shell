@@ -34,7 +34,7 @@ Graceful handling of `SIGINT` (Ctrl+C) to prevent shell termination.
 
 Linked-list based environment variable storage and lookup with commands to manipulate them.
 
-### 5. Networking Support (Milestone 5)
+### 5. Networking Support
 
 - **start-server port-number**  
   Launches a non-blocking background chat server on the specified port, accepting multiple simultaneous client connections.  
